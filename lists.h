@@ -17,3 +17,8 @@ typedef struct list_s
 	unsigned int len;
 	struct list_s *next;
 } list_t;
+
+/*Function to print all elements of a list_t list */
+size_t print_list(const list_t *h);
+
+#endif /* LIST_H */ 
